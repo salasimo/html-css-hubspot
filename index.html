@@ -2,50 +2,76 @@
 <html lang="it" dir="ltr">
     <head>
         <meta charset="utf-8">
-        <link href="https://fonts.googleapis.com/css?family=Montserrat:200,400,700,900&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Montserrat:200,400,600,700&display=swap" rel="stylesheet">
         <script src="https://kit.fontawesome.com/25aedb670a.js" crossorigin="anonymous"></script>
         <link rel="stylesheet" href="css/style.css">
         <title>HubSpot | Esercizio</title>
     </head>
     <body>
         <header>
+            <!-- =========FIXED============ -->
             <div class="container-full full-fixed">
-                <div class="container fixed">
+                <div class="container clearfix fixed">
                     <div class="btns btns-left">
-                        <div class="lingua"></div>
-                        <div class="contact"></div>
+                        <div class="lingua-contact">
+                            <i class="fas fa-globe"></i>
+                            <a href="#">English <i class="fas fa-caret-down"></i></a>
+                            <div class="vline"></div>
+                            <a href="#">Contact Us</a>
+                        </div>
                     </div>
                     <div class="btns btns-right">
-
+                        <i class="fas fa-search"></i>
+                        <a id="login" href="#">Log in</a>
+                        <a class="cta-get cta-get-fix" href="#">Get HubSpot free</a>
                     </div>
                 </div>
             </div>
+            <!-- ==========NAV=========== -->
             <div class="container-full full-nav">
-                <div class="container logo-nav">
-                    <div class="logo"></div>
-                    <nav class="navbar"></nav>
+                <div class="container clearfix logo-nav">
+                    <img class="logo" src="https://www.hubspot.com/hubfs/HubSpot_Logos/HSLogo_color.svg" alt="logo HubSpot">
+                    <nav class="navbar">
+                        <ul>
+                            <li><a href="#"> Software</a></li>
+                            <li><a href="#"> Pricing</a></li>
+                            <li><a href="#"> Resources</a></li>
+                            <li><a href="#"> Partners</a></li>
+                            <li><a href="#"> About</a></li>
+                        </ul>
+                    </nav>
                 </div>
             </div>
         </header>
-
+        <!-- =========STRIPE============ -->
         <main>
             <div class="container-full full-stripe">
-                <section class="container info-stripe">
-                    <div class="info"></div>
-                    <button class="learn-more"></button>
-
+                <section class="container clearfix info-stripe">
+                    <div class="info"><p><span>Always easy. Now deeply powerful.</span> We've packed even more enterprise features into HubSpot's marketing software. Say hello to Marketing Hub Enterprise 2020.</p></div>
+                    <div class="learn-more-box">
+                        <button class="learn-more">Learn more</button>
+                    </div>
                 </section>
             </div>
+        <!-- =========JUMBOTRON============ -->
             <div class="container-full full-jumbo">
-                <section class="container jumbotron">
-                    <div class="title-box"></div>
+                <section class="container clearfix jumbotron">
+                    <div class="title-box">
+                        <h2>There’s a better way to grow.</h2>
+                        <p>Marketing, sales, and service software that helps your business grow without compromise. Because “good for the business” should also mean “good for the customer.”</p>
+                        <a class="cta-get cta-get-main" href="#">Get HubSpot free</a>
+                        <p class="nota">Get started with FREE tools, and upgrade as you grow.</p>
+                    </div>
                     <div class="big-image-box"></div>
                 </section>
             </div>
+            <!-- =========CARDS============ -->
             <div class="container-full full-cards">
-                <section class="container cards-box">
+                <section class="container clearfix cards-box">
                     <div class="cards-intro">
-
+                        <img src="https://www.hubspot.com/hubfs/assets/hubspot.com/home/2018/Integrations_Illustration@2x.png" alt="dice">
+                        <h3>Powerful alone. Better together.</h3>
+                        <p>HubSpot offers a full stack of software for marketing, sales, and customer service, with a completely free CRM at its core. They’re powerful alone — but even better when used together.</p>
                     </div>
                     <div class="card card-large"></div>
                     <div class="card card-small"></div>
@@ -53,9 +79,19 @@
                     <div class="card card-small"></div>
                 </section>
             </div>
+
+
+
+
+
+
+
+            <!-- =========GRID============ -->
             <div class="container-full full-grid">
-                <section class="container grid-box">
-                    <div class="grid-intro"></div>
+                <section class="container clearfix grid-box">
+                    <div class="grid-intro">
+
+                    </div>
                     <div class="grid">
                         <div class="grid-line gline-1">
                             <div class="grid-element"></div>
@@ -73,7 +109,7 @@
                 </section>
             </div>
             <div class="container-full full-customers">
-                <section class="container customers">
+                <section class="container clearfix customers">
                     <div class="customer-top">
                         <div class="customers-info"></div>
                         <div class="customers-loghi cloghi-1"></div>
